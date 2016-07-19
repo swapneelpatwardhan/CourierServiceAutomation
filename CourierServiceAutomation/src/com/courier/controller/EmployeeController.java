@@ -28,5 +28,4 @@ public class EmployeeController {
 		employeeService.addEmployee(employee);
 
 	}
-
 }
