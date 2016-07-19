@@ -26,6 +26,7 @@ public class EmployeeController {
 		employee.setMobile(mobile);
 		employee.setEmail(email);
 		employeeService.addEmployee(employee);
+		System.out.println("New Employee added.");
 
 	}
 }
