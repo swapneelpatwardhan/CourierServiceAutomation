@@ -24,7 +24,5 @@ public class EmployeeDao {
 		session.close();
 	}
 	
-	public void justPrint(){
-		
-	}
+	
 }
