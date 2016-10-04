@@ -14,7 +14,7 @@ public class EmployeeService {
 	public void setEmployeeDao(EmployeeDao employeeDao) {
 		this.employeeDao = employeeDao;
 	}
-	
+	//Adding a new employee
 	public void addEmployee(Employee employee){
 		employeeDao.addEmployee(employee);
 	}

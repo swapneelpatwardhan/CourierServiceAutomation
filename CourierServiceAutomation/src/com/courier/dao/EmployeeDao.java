@@ -23,4 +23,8 @@ public class EmployeeDao {
 		transaction.commit();
 		session.close();
 	}
+	
+	public void justPrint(){
+		
+	}
 }
